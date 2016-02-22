@@ -1,0 +1,37 @@
+JSP (JavaServer Page)
+
+CGI --> Programas para lógica
+SERVLET --> Clase
+ASP --> Texto = HTML + VBSCRIPT (Interpretado)
+JSP --> Texto = HTML + Java (Compilado) // TEXT = HTML + JSTL
+JSTL --> Librería de etiquetas
+          |--> core: condicionales, bulces, etc.
+          |--> sql
+JSF (Java Server Faces) --> Framework
+
+		(Request)
+Browser 		---------------->	Servidor [Prog. CGI] --> CGI
+		<----------------
+		(Response)
+
+---------------------------------------------------------
+
+JSP:
+
+Scriplets: <% ... %>
+
+Declaraciones: NO USAR <%! ... %>
+
+Expresiones: <%= expresión %>
+
+EL: Lenguajes de expresión
+	${expresión}
+
+
+
+
+
+
+------------------------------
+VER:
+hibernate.es
