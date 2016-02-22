@@ -35,7 +35,7 @@ public class TareaController extends HttpServlet {
 		request.setAttribute("mayor", mayor);
 		request.setAttribute("menor", menor);
 		
-		RequestDispatcher rd = request.getRequestDispatcher("tarea.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("Tarea.jsp");
 		rd.forward(request, response);
 	}
 
