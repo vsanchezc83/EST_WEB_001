@@ -1,0 +1,12 @@
+ORACLE
+
+1) Servicios: Deben estar iniciados:
+-OracleServiceXE
+-OracleXETNSListener
+
+2) En cmd:
+>sqlplus system/oracle
+>connect system/oracle // >connect eureka/admin
+
+** show user
+** sqlplus /nolog
